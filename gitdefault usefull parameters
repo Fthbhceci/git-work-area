@@ -1,0 +1,23 @@
+git config --global user.name "Adınız Soyadınız"
+git config --global user.email "email@example.com"
+
+git add . veya . yerine dosya adı
+
+daha sonra
+git commit -m "commit ile alakalı mesaj"
+
+git push origin main veya hangi branchte işlem yapılıyorsa onun adı.
+
+git clone:
+git clone komutu, uzak bir Git deposunu yerel bir dizine tamamen kopyalamak için kullanılır. Bu komutu kullanarak bir projenin tamamını indirebilir ve yerel bir kopyasını oluşturabilirsiniz. Bu kopyayı düzenleyebilir, yeni değişiklikler ekleyebilir ve bunları sonra uzak sunucuya gönderebilirsiniz. Kısacası, projenin başlangıç noktasını almak için kullanılır.
+
+Örnek:
+
+git clone <uzak_repo_url>
+
+git pull:
+git pull komutu, uzak bir depodaki değişiklikleri çekmek ve mevcut çalışma dizinindeki (branch) kodu güncellemek için kullanılır. Bu komut, yerel bir depodaki mevcut dalın son durumunu güncellemek amacıyla kullanılır. Eğer başka bir kişi veya ekip projede değişiklik yapmışsa, bu değişiklikleri alıp mevcut çalışma dizininde birleştirmenizi sağlar.
+
+Örnek:
+
+git pull origin main
