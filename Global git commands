@@ -1,0 +1,33 @@
+Git'in temel komutlarının bir listesi:
+
+git init: Yeni bir Git deposu oluşturmak için kullanılır.
+
+git clone <repo_url>: Uzak bir depoyu yerel makinenize klonlamak için kullanılır.
+
+git add <dosya/adres>: Çalışma dizinizdeki değişiklikleri gelecek bir 'commit' için hazırlamak için kullanılır.
+
+git commit -m "Commit açıklaması": Hazırlanan değişiklikleri bir 'commit' olarak kaydetmek için kullanılır.
+
+git status: Çalışma dizinizdeki dosyaların durumunu gösterir. Hangi dosyaların değiştirildiğini veya 'staged' aşamasında olduğunu gösterir.
+
+git diff: Çalışma dizinizdeki değişiklikleri gösterir, ancak 'staged' aşamasına alınmamış değişiklikleri gösterir.
+
+git log: Daha önce yapılmış 'commit'leri gösterir.
+
+git pull: Uzak sunucudaki değişiklikleri çekmek ve yerel depo ile güncellemek için kullanılır.
+
+git push: Yerelde yaptığınız değişiklikleri uzak sunucuya göndermek için kullanılır.
+
+git branch: Mevcut dalları listeler. Aktif dalı gösterirken, diğer dallar da listelenir.
+
+git checkout <dal_adı>: Başka bir dala geçmek veya mevcut dalı değiştirmek için kullanılır.
+
+git merge <dal_adı>: Belirtilen dalı şu anki dala birleştirmek için kullanılır.
+
+git pull origin <dal_adı>: Uzak sunucudaki belirtilen dalı çekmek ve yerel dala birleştirmek için kullanılır.
+
+git push origin <dal_adı>: Belirtilen daki uzak sunucuya yerel daldaki değişiklikleri göndermek için kullanılır.
+
+git remote add <uzak_ad> <uzak_repo_url>: Uzak bir depoyu projeye eklemek için kullanılır.
+
+Bu komutlar, temel Git işlemlerini gerçekleştirmeniz için yeterli olacaktır. Git'in daha derinlemesine özelliklerini keşfetmek isterseniz, Git resmi belgelerini incelemeniz faydalı olacaktır.
